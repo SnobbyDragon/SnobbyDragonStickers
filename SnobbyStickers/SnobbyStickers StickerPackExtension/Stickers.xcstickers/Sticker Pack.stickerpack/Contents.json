@@ -1,0 +1,41 @@
+{
+  "stickers" : [
+    {
+      "filename" : "Snobby Smug.sticker"
+    },
+    {
+      "filename" : "Snobby Rage.sticker"
+    },
+    {
+      "filename" : "Snobby Peasant.sticker"
+    },
+    {
+      "filename" : "Snobby Wut.sticker"
+    },
+    {
+      "filename" : "Snobby Thump.sticker"
+    },
+    {
+      "filename" : "Snobby Glitch.sticker"
+    },
+    {
+      "filename" : "Snobby Eats Cake.sticker"
+    },
+    {
+      "filename" : "Snobby Blaze It.sticker"
+    },
+    {
+      "filename" : "Snobby Dab.sticker"
+    },
+    {
+      "filename" : "Snobby On Fire.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

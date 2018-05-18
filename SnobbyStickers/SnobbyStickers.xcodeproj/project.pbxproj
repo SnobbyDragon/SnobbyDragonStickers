@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F7820820AF151C00CF4CCD /* SnobbyStickers StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68F7820720AF151C00CF4CCD /* SnobbyStickers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68F7820C20AF151C00CF4CCD /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 68F7820B20AF151C00CF4CCD /* Stickers.xcstickers */; };
+		68F7820D20AF151C00CF4CCD /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 68F7820B20AF151C00CF4CCD /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68F7820920AF151C00CF4CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F781FD20AF151B00CF4CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F7820620AF151C00CF4CCD;
+			remoteInfo = "SnobbyStickers StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68F7821320AF151C00CF4CCD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				68F7820820AF151C00CF4CCD /* SnobbyStickers StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68F7820320AF151C00CF4CCD /* SnobbyStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnobbyStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F7820720AF151C00CF4CCD /* SnobbyStickers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SnobbyStickers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F7820B20AF151C00CF4CCD /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "SnobbyStickers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		68F781FC20AF151B00CF4CCD = {
+			isa = PBXGroup;
+			children = (
+				68F7820B20AF151C00CF4CCD /* Stickers.xcstickers */,
+				68F7820420AF151C00CF4CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F7820420AF151C00CF4CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F7820320AF151C00CF4CCD /* SnobbyStickers.app */,
+				68F7820720AF151C00CF4CCD /* SnobbyStickers StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F7820220AF151B00CF4CCD /* SnobbyStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F7821420AF151C00CF4CCD /* Build configuration list for PBXNativeTarget "SnobbyStickers" */;
+			buildPhases = (
+				68F7820120AF151B00CF4CCD /* Resources */,
+				68F7821320AF151C00CF4CCD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F7820A20AF151C00CF4CCD /* PBXTargetDependency */,
+			);
+			name = SnobbyStickers;
+			productName = SnobbyStickers;
+			productReference = 68F7820320AF151C00CF4CCD /* SnobbyStickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		68F7820620AF151C00CF4CCD /* SnobbyStickers StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F7821020AF151C00CF4CCD /* Build configuration list for PBXNativeTarget "SnobbyStickers StickerPackExtension" */;
+			buildPhases = (
+				68F7820520AF151C00CF4CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnobbyStickers StickerPackExtension";
+			productName = "SnobbyStickers StickerPackExtension";
+			productReference = 68F7820720AF151C00CF4CCD /* SnobbyStickers StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F781FD20AF151B00CF4CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SnobbyDragon;
+				TargetAttributes = {
+					68F7820220AF151B00CF4CCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					68F7820620AF151C00CF4CCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68F7820020AF151B00CF4CCD /* Build configuration list for PBXProject "SnobbyStickers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68F781FC20AF151B00CF4CCD;
+			productRefGroup = 68F7820420AF151C00CF4CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F7820220AF151B00CF4CCD /* SnobbyStickers */,
+				68F7820620AF151C00CF4CCD /* SnobbyStickers StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68F7820120AF151B00CF4CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F7820D20AF151C00CF4CCD /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F7820520AF151C00CF4CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F7820C20AF151C00CF4CCD /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68F7820A20AF151C00CF4CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F7820620AF151C00CF4CCD /* SnobbyStickers StickerPackExtension */;
+			targetProxy = 68F7820920AF151C00CF4CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68F7820E20AF151C00CF4CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68F7820F20AF151C00CF4CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F7821120AF151C00CF4CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7D5PPAWG2;
+				INFOPLIST_FILE = "SnobbyStickers StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = SnobbyDragon.SnobbyStickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68F7821220AF151C00CF4CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7D5PPAWG2;
+				INFOPLIST_FILE = "SnobbyStickers StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = SnobbyDragon.SnobbyStickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68F7821520AF151C00CF4CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7D5PPAWG2;
+				INFOPLIST_FILE = SnobbyStickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = SnobbyDragon.SnobbyStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68F7821620AF151C00CF4CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7D5PPAWG2;
+				INFOPLIST_FILE = SnobbyStickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = SnobbyDragon.SnobbyStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F7820020AF151B00CF4CCD /* Build configuration list for PBXProject "SnobbyStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F7820E20AF151C00CF4CCD /* Debug */,
+				68F7820F20AF151C00CF4CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F7821020AF151C00CF4CCD /* Build configuration list for PBXNativeTarget "SnobbyStickers StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F7821120AF151C00CF4CCD /* Debug */,
+				68F7821220AF151C00CF4CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F7821420AF151C00CF4CCD /* Build configuration list for PBXNativeTarget "SnobbyStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F7821520AF151C00CF4CCD /* Debug */,
+				68F7821620AF151C00CF4CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F781FD20AF151B00CF4CCD /* Project object */;
+}
